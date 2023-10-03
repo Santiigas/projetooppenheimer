@@ -10,6 +10,8 @@
     text-decoration: none;
 }
 
+/*--------------- ESTRUTURA GERAL ----------------*/ 
+
 main{
     padding-top: 40px;
     display: flex;
@@ -25,32 +27,69 @@ main{
     align-items: center;
 }
 
+/*---------------- CAUDA DA BOMBA ----------------*/
+
 #cauda{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 140px;
+    width: 240px;
+    height: 160px;
     background-color: rgb(241, 241, 241);
 }
+
+#cauda > #cauda-filho{
+    width: 150px;
+    height: 75px;
+    background-color: rgb(255, 164, 53);
+
+}
+
+#cauda > #cauda-triangulo{
+    width: 150px;
+    height: 85px;
+    background-color: rgb(219, 148, 61);
+}
+
+/*--------------- PESCOÇO DA BOMBA ---------------*/
 
 #pescoco{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 240px;
     height: 120px;
     background-color: rgb(226, 226, 226);
 }
+
+#pescoco > #pescoco-triangulo{
+    width: 150px;
+    height: 130px;
+    background-color: rgb(255, 187, 104);
+}
+
+/*--------------- CORPO DA BOMBA ---------------*/ 
 
 #corpo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 250px;
+    width: 240px;
+    height: 280px;
     background-color: rgb(241, 241, 241);
+}
+
+#corpo > #bomba-principal{
+    width: 150px;
+    height: 240px;
+    background-color: rgb(255, 164, 53);
+}
+
+#corpo > #ponto-bomba{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 181, 92);
 }
