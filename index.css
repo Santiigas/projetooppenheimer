@@ -42,7 +42,7 @@ main{
 #cauda > #cauda-filho{
     width: 150px;
     height: 75px;
-    background-color: rgb(255, 164, 53);
+    background-color: #B4AB64;
     position: relative;
     z-index: 1;
 }
@@ -50,9 +50,9 @@ main{
 #cauda > #cauda-triangulo{
     height: 0;
     width: 65px;
-    border-top: 75px solid rgb(243, 160, 60);
+    border-top: 75px solid #B4AB64;
     border-left: 42px solid transparent;
-    border-right: 42px solid transparent;
+    border-right: 43px solid transparent;
     position: relative;
     z-index: 1;
 }
@@ -61,7 +61,7 @@ main{
     padding-top: 50px;
     height: 90px;
     width: 90px;
-    background-color: rgb(255, 165, 165);
+    background-color: #B4AB64;
     position: absolute;
     z-index: 0;
 }
@@ -81,7 +81,7 @@ main{
 #pescoco > #pescoco-triangulo{
     height: 0;
     width: 90px;
-    border-bottom: 140px solid rgb(255, 181, 92);
+    border-bottom: 140px solid #B4AB64;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
 }
@@ -101,12 +101,13 @@ main{
 #corpo > #bomba-principal{
     width: 150px;
     height: 280px;
-    background-color: rgb(255, 164, 53);
+    background-color: #B4AB64;
 }
 
 #corpo > #ponto-bomba{
     width: 150px;
     height: 40px;
-    background-color: rgb(255, 181, 92);
+    background-color: #B4AB64;
     border-radius: 0px 0px 70px 70px;
 }
+
