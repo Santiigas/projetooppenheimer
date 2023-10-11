@@ -75,11 +75,30 @@ main{
 }
 
 #caixa-dentro-triangulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     border: 1px solid black;
     width: 55px;
     height: 45px;
     background-color: #5e5e5e;
 }
+
+#detalhe4{
+    width: 22px;
+    height: 13px;
+    background-color: rgb(255, 163, 43);
+    border: 1px solid black;
+}
+
+#detalhe5{
+    width: 28px;
+    height: 20px;
+    background-color: rgba(16, 151, 95, 0.973);
+    border: 1px solid black;
+}
+
 
 /*--> Estrutura interna*/
 
@@ -109,11 +128,30 @@ main{
     padding-left: 16px;
 }
 
-#pescoco > #pescoco-triangulo > #alinhamento1 > #quadrado1{
+#quadrado1{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
     border: 1px solid black;
     width: 55px;
     height: 25px;
     background-color: #646464;
+}
+
+#quadrado-alinhamento{
+    padding-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+#detalhes2{
+    width: 22px;
+    height: 5px;
+    background-color: rgb(207, 46, 46);
+    border: 1px solid black;
 }
 
 #pescoco > #pescoco-triangulo > #alinhamento2{
@@ -136,7 +174,7 @@ main{
 #pescoco > #pescoco-triangulo > #alinhamento2 > #bomba-cano1 > #bomba-cano2{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: center;
     width: 22px;
     height: 120px;
@@ -144,6 +182,20 @@ main{
     border: 1px solid black;
     position: relative;
     z-index: 1;
+}
+
+#detalhes1{
+    width: 22px;
+    height: 5px;
+    background-color: rgb(207, 46, 46);
+    border: 1px solid black;
+}
+
+#detalhe3{
+    width: 22px;
+    height: 9px;
+    background-color: rgb(255, 163, 43);
+    border: 1px solid black;
 }
 
 /*--------------- CORPO DA BOMBA ---------------*/ 
