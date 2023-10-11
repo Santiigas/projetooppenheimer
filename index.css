@@ -40,6 +40,10 @@ main{
 }
 
 #cauda > #cauda-filho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 75px;
     background-color: #B4AB64;
@@ -54,16 +58,27 @@ main{
     border-left: 42px solid transparent;
     border-right: 43px solid transparent;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 #cauda > #cauda-quadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     padding-top: 50px;
     height: 90px;
     width: 90px;
     background-color: #B4AB64;
     position: absolute;
     z-index: 0;
+}
+
+#caixa-dentro-triangulo{
+    border: 1px solid black;
+    width: 55px;
+    height: 45px;
+    background-color: #5e5e5e;
 }
 
 /*--> Estrutura interna*/
@@ -100,7 +115,6 @@ main{
     height: 25px;
     background-color: #646464;
 }
-
 
 #pescoco > #pescoco-triangulo > #alinhamento2{
     padding-left: 25px;
