@@ -93,7 +93,7 @@ main{
 }
 
 #detalhe5{
-    width: 28px;
+    width: 30px;
     height: 20px;
     background-color: rgba(16, 151, 95, 0.973);
     border: 1px solid black;
@@ -236,6 +236,33 @@ main{
     background-color: #B4AB64;
 }
 
+#alinhamento5{
+    padding-top: 120px;
+    position: absolute;
+    z-index: 0;
+}
+
+#conector{
+    width: 3px;
+    height: 20px;
+    background-color: #414141;
+    border: 1px solid black;
+}
+
+#alinhamento4{
+    padding-bottom: 240px;
+    padding-right: 90px;
+    position: absolute;
+    z-index: 0;
+}
+
+#quadrado-solitario{
+    width: 30px;
+    height: 40px;
+    background-color: #494545;
+    border: 1px solid black;
+}
+
 /*--> Estrutura interna*/
 
 #corpo > #bomba-principal > #quadrado-grande{
@@ -345,4 +372,3 @@ main{
     background-color: #B4AB64;
     border-radius: 0px 0px 70px 70px;
 }
-
