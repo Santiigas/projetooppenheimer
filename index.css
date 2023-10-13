@@ -10,7 +10,21 @@
     text-decoration: none;
 }
 
+:root{
+    --cor-de-fundo:#bfd6d1;
+    --cor-da-bomba:#687d82;
+    --primeira-cor:#505664;
+    --segunda-cor: #313642;
+    --terceira-cor: #313642;
+    --quarta-cor:#e63b3b;
+    --quinta-cor: #e3a23b;
+}
+
 /*--------------- ESTRUTURA GERAL ----------------*/ 
+body{
+    background-color: var(--cor-de-fundo);
+}
+
 
 main{
     padding-top: 15px;
@@ -36,7 +50,6 @@ main{
     align-items: center;
     width: 240px;
     height: 140px;
-    background-color: rgb(241, 241, 241);
 }
 
 #cauda > #cauda-filho{
@@ -46,7 +59,7 @@ main{
     align-items: center;
     width: 150px;
     height: 75px;
-    background-color: #B4AB64;
+    background-color: var(--cor-da-bomba);
     position: relative;
     z-index: 1;
 }
@@ -54,7 +67,7 @@ main{
 #cauda > #cauda-triangulo{
     height: 0;
     width: 65px;
-    border-top: 75px solid #B4AB64;
+    border-top: 75px solid var(--cor-da-bomba);
     border-left: 42px solid transparent;
     border-right: 43px solid transparent;
     position: relative;
@@ -69,7 +82,7 @@ main{
     padding-top: 50px;
     height: 90px;
     width: 90px;
-    background-color: #B4AB64;
+    background-color: var(--cor-da-bomba);
     position: absolute;
     z-index: 0;
 }
@@ -82,20 +95,20 @@ main{
     border: 1px solid black;
     width: 55px;
     height: 45px;
-    background-color: #5e5e5e;
+    background-color: var(--primeira-cor)
 }
 
 #detalhe4{
     width: 22px;
     height: 13px;
-    background-color: rgb(255, 163, 43);
+    background-color: var(--quinta-cor);
     border: 1px solid black;
 }
 
 #detalhe5{
     width: 30px;
     height: 20px;
-    background-color: rgba(16, 151, 95, 0.973);
+    background-color: var(--segunda-cor);
     border: 1px solid black;
 }
 
@@ -111,13 +124,12 @@ main{
     align-items: center;
     width: 240px;
     height: 140px;
-    background-color: rgb(226, 226, 226);
 }
 
 #pescoco > #pescoco-triangulo{
     height: 0;
     width: 90px;
-    border-bottom: 140px solid #B4AB64;
+    border-bottom: 140px solid var(--cor-da-bomba);
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
 }
@@ -133,14 +145,14 @@ main{
     flex-direction: column;
     justify-content:flex-end;
     align-items: center;
-    border: 1px solid black;
     width: 55px;
     height: 25px;
-    background-color: #646464;
+    border: 1px solid black;
+    background-color: var(--primeira-cor);
 }
 
 #quadrado-alinhamento{
-    padding-left: 2px;
+    padding-left: 0px;
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
@@ -223,7 +235,6 @@ main{
     align-items: center;
     width: 240px;
     height: 300px;
-    background-color: rgb(241, 241, 241);
 }
 
 #corpo > #bomba-principal{
@@ -233,7 +244,7 @@ main{
     flex-direction: column;
     justify-content:flex-end;
     align-items: center;
-    background-color: #B4AB64;
+    background-color: var(--cor-da-bomba);
 }
 
 #alinhamento5{
@@ -369,6 +380,6 @@ main{
 #corpo > #ponto-bomba{
     width: 150px;
     height: 40px;
-    background-color: #B4AB64;
+    background-color: var(--cor-da-bomba);
     border-radius: 0px 0px 70px 70px;
 }
