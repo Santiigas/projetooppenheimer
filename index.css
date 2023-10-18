@@ -168,7 +168,9 @@ main{
     width: 22px;
     height: 5px;
     background-color: rgb(207, 46, 46);
-    border: 1px solid black;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right: 1px solid black;
 }
 
 #pescoco > #pescoco-triangulo > #alinhamento2{
@@ -224,12 +226,13 @@ main{
     width: 22px;
     height: 5px;
     background-color: rgb(207, 46, 46);
-    border: 1px solid black;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
 }
 
 #detalhe3{
     width: 22px;
-    height: 11px;
+    height: 13px;
     background-color: rgb(255, 163, 43);
     border-right:1px solid black;
     border-left:1px solid black;
